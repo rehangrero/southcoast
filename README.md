@@ -1,3 +1,3 @@
-https://rehangrero.github.io/southcoast/SrilankasouthCoast.html
+https://rehangrero.github.io/southcoast/SriLankasouthCoast.html
 # southcoast
 SC
