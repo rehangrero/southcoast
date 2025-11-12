@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Lanka South Coast Beachfront Land Market 2024-2025</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        @page {
+            size: A4;
+            margin: 0;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            width: 210mm;
+            min-height: 297mm;
+            margin: 0 auto;
+            background: white;
+            padding: 15mm;
+            box-shadow: 0 0 20px rgba(0,0,0,0.3);
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 4px solid #667eea;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            color: #2d3748;
+            font-size: 32px;
+            font-weight: 800;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .subtitle {
+            color: #667eea;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        
+        .key-stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin: 25px 0;
+        }
+        
+        .stat-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .stat-number {
+            font-size: 24px;
+            font-weight: bold;
+            display: block;
+        }
+        
+        .stat-label {
+            font-size: 11px;
+            opacity: 0.95;
+            margin-top: 3px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .price-zones {
+            margin: 25px 0;
+        }
+        
+        .section-title {
+            color: #2d3748;
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            border-left: 4px solid #667eea;
+            padding-left: 10px;
+        }
+        
+        .zones-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+        
+        .zone-card {
+            border: 2px solid #e2e8f0;
+            border-radius: 10px;
+            padding: 15px;
+            position: relative;
+            background: #f7fafc;
+        }
+        
+        .zone-premium { border-left: 5px solid #f6ad55; }
+        .zone-surf { border-left: 5px solid #4299e1; }
+        .zone-mid { border-left: 5px solid #48bb78; }
+        .zone-value { border-left: 5px solid #9f7aea; }
+        
+        .zone-name {
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+        
+        .zone-price {
+            color: #667eea;
+            font-weight: 600;
+            font-size: 13px;
+            margin-bottom: 5px;
+        }
+        
+        .zone-details {
+            font-size: 11px;
+            color: #718096;
+            line-height: 1.5;
+        }
+        
+        .investment-tiers {
+            margin: 25px 0;
+        }
+        
+        .tier-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+        
+        .tier-box {
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .tier-immediate {
+            background: linear-gradient(135deg, #f6ad55 0%, #ed8936 100%);
+            color: white;
+        }
+        
+        .tier-medium {
+            background: linear-gradient(135deg, #4299e1 0%, #3182ce 100%);
+            color: white;
+        }
+        
+        .tier-long {
+            background: linear-gradient(135deg, #9f7aea 0%, #805ad5 100%);
+            color: white;
+        }
+        
+        .tier-title {
+            font-weight: 700;
+            font-size: 14px;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .tier-timeline {
+            font-size: 11px;
+            opacity: 0.9;
+            margin-bottom: 8px;
+        }
+        
+        .tier-location {
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        
+        .tier-price {
+            font-size: 11px;
+            opacity: 0.95;
+        }
+        
+        .market-drivers {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin: 25px 0;
+        }
+        
+        .driver-card {
+            background: #f7fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+        
+        .driver-icon {
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+        
+        .driver-title {
+            font-weight: 600;
+            font-size: 12px;
+            color: #2d3748;
+            margin-bottom: 5px;
+        }
+        
+        .driver-text {
+            font-size: 10px;
+            color: #718096;
+            line-height: 1.4;
+        }
+        
+        .comparison-chart {
+            margin: 25px 0;
+            overflow-x: auto;
+        }
+        
+        .chart-container {
+            background: #f7fafc;
+            border-radius: 10px;
+            padding: 15px;
+        }
+        
+        .bar-chart {
+            display: flex;
+            align-items: flex-end;
+            height: 150px;
+            gap: 8px;
+            margin-bottom: 10px;
+        }
+        
+        .bar-group {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+        }
+        
+        .bar {
+            width: 100%;
+            background: linear-gradient(to top, #667eea, #9f7aea);
+            border-radius: 4px 4px 0 0;
+            position: relative;
+            min-height: 20px;
+        }
+        
+        .bar-value {
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 9px;
+            font-weight: 700;
+            color: #2d3748;
+            white-space: nowrap;
+        }
+        
+        .bar-label {
+            font-size: 9px;
+            color: #718096;
+            text-align: center;
+            margin-top: 5px;
+            font-weight: 600;
+        }
+        
+        .footer-insights {
+            background: linear-gradient(135deg, #e2e8f0 0%, #cbd5e0 100%);
+            border-radius: 10px;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        
+        .insights-title {
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        
+        .insight-list {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 8px;
+        }
+        
+        .insight-item {
+            font-size: 11px;
+            color: #4a5568;
+            padding-left: 15px;
+            position: relative;
+        }
+        
+        .insight-item:before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+        }
+        
+        @media print {
+            body {
+                background: white;
+            }
+            .container {
+                box-shadow: none;
+                padding: 10mm;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Sri Lanka South Coast Beachfront Land</h1>
+            <div class="subtitle">Investment Opportunity Analysis 2024-2025</div>
+        </div>
+        
+        <div class="key-stats">
+            <div class="stat-box">
+                <span class="stat-number">Rs.400K</span>
+                <span class="stat-label">Minimum Per Perch</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number">Rs.7.5M</span>
+                <span class="stat-label">Premium Per Perch</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number">200-400%</span>
+                <span class="stat-label">Growth Since 2017</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number">195 km</span>
+                <span class="stat-label">Coastal Stretch</span>
+            </div>
+        </div>
+        
+        <div class="price-zones">
+            <h2 class="section-title">Price Zones by Location</h2>
+            <div class="zones-grid">
+                <div class="zone-card zone-premium">
+                    <div class="zone-name">🏆 PREMIUM GALLE</div>
+                    <div class="zone-price">Rs.4.5-7.5M per perch</div>
+                    <div class="zone-details">
+                        • Golden Mile: Talpe to Habaraduwa<br>
+                        • UNESCO Fort proximity<br>
+                        • Min. investment: Rs.180-750M<br>
+                        • Limited inventory
+                    </div>
+                </div>
+                
+                <div class="zone-card zone-surf">
+                    <div class="zone-name">🏄 SURF CORRIDOR</div>
+                    <div class="zone-price">Rs.4-5M per perch</div>
+                    <div class="zone-details">
+                        • Weligama-Ahangama-Midigama<br>
+                        • World-class surf breaks<br>
+                        • Year-round tourism<br>
+                        • 8-10% rental yields
+                    </div>
+                </div>
+                
+                <div class="zone-card zone-mid">
+                    <div class="zone-name">🏖️ MID-RANGE WEST</div>
+                    <div class="zone-price">Rs.800K-2.5M per perch</div>
+                    <div class="zone-details">
+                        • Kalutara to Bentota<br>
+                        • 90-120 min from Colombo<br>
+                        • Active development<br>
+                        • Established infrastructure
+                    </div>
+                </div>
+                
+                <div class="zone-card zone-value">
+                    <div class="zone-name">💎 VALUE EAST</div>
+                    <div class="zone-price">Rs.400K-1.65M per perch</div>
+                    <div class="zone-details">
+                        • Tangalle to Hambantota<br>
+                        • 67-90% discount to premium<br>
+                        • Expressway accessible<br>
+                        • High appreciation potential
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="investment-tiers">
+            <h2 class="section-title">Investment Opportunity Tiers</h2>
+            <div class="tier-container">
+                <div class="tier-box tier-immediate">
+                    <div class="tier-title">Tier 1: Immediate</div>
+                    <div class="tier-timeline">Returns in 2-3 Years</div>
+                    <div class="tier-location">Tangalle-Dickwella</div>
+                    <div class="tier-price">Rs.500K-1.65M/perch</div>
+                </div>
+                
+                <div class="tier-box tier-medium">
+                    <div class="tier-title">Tier 2: Medium</div>
+                    <div class="tier-timeline">Returns in 3-5 Years</div>
+                    <div class="tier-location">Rekawa Area</div>
+                    <div class="tier-price">Rs.450K-800K/perch</div>
+                </div>
+                
+                <div class="tier-box tier-long">
+                    <div class="tier-title">Tier 3: Long-term</div>
+                    <div class="tier-timeline">Returns in 5+ Years</div>
+                    <div class="tier-location">Hambantota</div>
+                    <div class="tier-price">Rs.400K-500K/perch</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="market-drivers">
+            <div class="driver-card">
+                <div class="driver-icon">🛣️</div>
+                <div class="driver-title">Southern Expressway</div>
+                <div class="driver-text">2-hour access from Colombo to entire coast</div>
+            </div>
+            <div class="driver-card">
+                <div class="driver-icon">🏄‍♂️</div>
+                <div class="driver-title">Surf Tourism Boom</div>
+                <div class="driver-text">Post-2020 shift from Bali creating demand</div>
+            </div>
+            <div class="driver-card">
+                <div class="driver-icon">📈</div>
+                <div class="driver-title">Tourism Recovery</div>
+                <div class="driver-text">61.6% YoY growth, $181/day spending</div>
+            </div>
+            <div class="driver-card">
+                <div class="driver-icon">🏛️</div>
+                <div class="driver-title">CCD Restrictions</div>
+                <div class="driver-text">60-100m setbacks create scarcity</div>
+            </div>
+            <div class="driver-card">
+                <div class="driver-icon">🏢</div>
+                <div class="driver-title">Villa Shortage</div>
+                <div class="driver-text">Mid-range rental supply gap east of Mirissa</div>
+            </div>
+            <div class="driver-card">
+                <div class="driver-icon">💰</div>
+                <div class="driver-title">Returns Profile</div>
+                <div class="driver-text">13-20% annual USD returns projected</div>
+            </div>
+        </div>
+        
+        <div class="comparison-chart">
+            <h2 class="section-title">Beachfront Price Comparison (Rs. Million/Perch)</h2>
+            <div class="chart-container">
+                <div class="bar-chart">
+                    <div class="bar-group">
+                        <div class="bar" style="height: 100%">
+                            <span class="bar-value">7.5</span>
+                        </div>
+                        <span class="bar-label">Galle Premium</span>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar" style="height: 67%">
+                            <span class="bar-value">5.0</span>
+                        </div>
+                        <span class="bar-label">Ahangama</span>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar" style="height: 59%">
+                            <span class="bar-value">4.4</span>
+                        </div>
+                        <span class="bar-label">Mirissa</span>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar" style="height: 43%">
+                            <span class="bar-value">3.2</span>
+                        </div>
+                        <span class="bar-label">Hikkaduwa</span>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar" style="height: 33%">
+                            <span class="bar-value">2.5</span>
+                        </div>
+                        <span class="bar-label">Beruwala</span>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar" style="height: 27%">
+                            <span class="bar-value">2.0</span>
+                        </div>
+                        <span class="bar-label">Wadduwa</span>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar" style="height: 22%">
+                            <span class="bar-value">1.65</span>
+                        </div>
+                        <span class="bar-label">Tangalle</span>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar" style="height: 11%">
+                            <span class="bar-value">0.8</span>
+                        </div>
+                        <span class="bar-label">Rekawa</span>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar" style="height: 7%">
+                            <span class="bar-value">0.5</span>
+                        </div>
+                        <span class="bar-label">Hambantota</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-insights">
+            <div class="insights-title">💡 KEY INVESTMENT INSIGHTS</div>
+            <div class="insight-list">
+                <div class="insight-item">Direct beach access commands 100-400% premium</div>
+                <div class="insight-item">Small plots (<40 perches) trade at 50-100% premium</div>
+                <div class="insight-item">18.75x price spread from lowest to highest areas</div>
+                <div class="insight-item">Foreign buyers use 99-year leases at 7% tax</div>
+                <div class="insight-item">Title verification critical for success</div>
+                <div class="insight-item">Investment range: Rs.45M to Rs.2B+</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
